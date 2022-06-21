@@ -25,9 +25,21 @@
    <artifactId>artemis-stomp-protocol</artifactId>
    <packaging>bundle</packaging>
    <name>ActiveMQ Artemis STOMP Protocol</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>10</source>
+                    <target>10</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
-   <properties>
+    <properties>
       <activemq.basedir>${project.basedir}/../..</activemq.basedir>
    </properties>
 

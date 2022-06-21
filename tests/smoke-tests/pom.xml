@@ -239,6 +239,8 @@
                   <arg>--add-exports=java.rmi/sun.rmi.server=ALL-UNNAMED</arg>
                   <arg>--add-exports=java.rmi/sun.rmi.transport=ALL-UNNAMED</arg>
                </compilerArgs>
+                <source>10</source>
+                <target>10</target>
             </configuration>
          </plugin>
          <plugin>
